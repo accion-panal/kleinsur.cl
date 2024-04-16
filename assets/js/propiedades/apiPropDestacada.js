@@ -59,7 +59,7 @@ export default async function apiDestCall() {
                 </div>
 
                 <hr>
-                <a href="/detalle_propiedad.html?${data.id}&statusId=${1}&companyId=${1}" class="readmore stretched-link" target="_blank"><span>Ver detalle</span><i class="bi bi-arrow-right"></i></a>
+                <a href="/detalle_propiedad.html?${data.id}&statusId=${1}&companyId=${PropertyData.companyId}" class="readmore stretched-link" target="_blank"><span>Ver detalle</span><i class="bi bi-arrow-right"></i></a>
               </div>
             </div>
           </div>
